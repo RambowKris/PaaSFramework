@@ -27,9 +27,9 @@ import java.util.List;
 
 public class AWSManager {
     protected CognitoCachingCredentialsProvider credentialsProvider;
-    protected Regions region = Regions.EU_CENTRAL_1;
-    protected String identityPoolId = "eu-central-1:0ae71060-78fc-41b0-87bc-92e70d80ffc7";
-    protected String datasetName = "myDataset";
+    protected Regions region = ;
+    protected String identityPoolId = "";
+    protected String datasetName = "";
 
     protected String identityId;
     protected Context context;

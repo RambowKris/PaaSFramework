@@ -39,12 +39,11 @@ public class CloudActivity extends AppCompatActivity {
     protected AWSManager AWSManager;
 
     protected Dataset dataset;
-    protected String datasetName = "myDataset";
+    protected String datasetName = "";
     protected CognitoCachingCredentialsProvider credentialsProvider;
-    protected String awsAccountId = "458341318104";
-    //    protected String awsIdentityPoolId = "eu-central-1:f853a5b6-e0dd-49a2-908b-5b8f71e208ba";
-    protected String awsIdentityPoolId = "eu-central-1:e7813174-98b3-4a38-9432-a1d75dcf9056";
-    protected Regions awsRegions = Regions.EU_CENTRAL_1;
+    protected String awsAccountId = "";
+    protected String awsIdentityPoolId = "";
+    protected Regions awsRegions = ;
 
     protected Button buttonConnect;
     protected Button buttonSynchronize;
@@ -58,8 +57,6 @@ public class CloudActivity extends AppCompatActivity {
     protected EditText inputValue;
 
     protected String KEY_ALIAS = "MyAWSApplication_AES";
-//    protected String KEY_ALIAS = "MyAWSApplication_AES_KEY";
-//    protected String KEY_ALIAS = "MyAWSApplication";
 
     public CryptoManager cryptoManager;
 
