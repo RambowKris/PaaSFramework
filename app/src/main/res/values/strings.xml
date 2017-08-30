@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MyAWSApplication</string>
+    <string name="appbar_scrolling_view_behavior">Test</string>
+    <string name="textview_hello_world">Hello World!</string>
+    <string name="textview_dataset">Test</string>
+    <string name="textview_encrypt">Encrypted Text Here</string>
+    <string name="textview_decrypt">Decrypted Text Here</string>
+    <string name="button_connect">Connect</string>
+    <string name="button_disconnect">Disconnect</string>
+    <string name="button_synchronize">Synchronize</string>
+    <string name="button_add">Add</string>
+    <string name="button_remove">Remove</string>
+    <string name="button_cloud">Go To Cloud</string>
+    <string name="button_version">Get Current Android Version</string>
+    <string name="button_encrypt">Encrypt</string>
+    <string name="button_decrypt">Decrypt</string>
+    <string name="input_enter_key">Enter Key</string>
+    <string name="input_enter_value">Enter Value</string>
+    <string name="input_enter_remove_key">Enter Remove Key</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="edittext_enter_text">Enter Text</string>
+</resources>

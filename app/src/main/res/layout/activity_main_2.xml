@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.krb.myawsapplication.Activities.MainActivity2"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <Button
+        android:id="@+id/button_cloud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_cloud"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="26dp"
+        android:layout_marginTop="19dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp" />
+
+    <Button
+        android:id="@+id/button_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_version"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="26dp"
+        tools:layout_editor_absoluteX="232dp"
+        android:layout_alignBaseline="@+id/button_cloud"
+        android:layout_alignBottom="@+id/button_cloud"
+        android:layout_toRightOf="@+id/button_add"
+        android:layout_toEndOf="@+id/button_add" />
+
+    <EditText
+        android:id="@+id/input_enter_key"
+        android:layout_width="154dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button_cloud"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="38dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/input_enter_key"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <EditText
+        android:id="@+id/input_enter_value"
+        android:layout_width="154dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/input_enter_value"
+        tools:layout_editor_absoluteY="93dp"
+        tools:layout_editor_absoluteX="214dp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginRight="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_alignBaseline="@+id/input_enter_key"
+        android:layout_alignBottom="@+id/input_enter_key"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_add"
+        tools:layout_editor_absoluteY="160dp"
+        tools:layout_editor_absoluteX="148dp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/input_enter_key"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textview_dataset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_add"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:text="@string/textview_dataset" />
+
+    <Button
+        android:id="@+id/button_remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_remove"
+        android:layout_below="@+id/button_add"
+        android:layout_toRightOf="@+id/button_add"
+        android:layout_toEndOf="@+id/button_add" />
+
+    <EditText
+        android:id="@+id/input_enter_remove_key"
+        android:layout_width="154dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/input_enter_remove_key"
+        android:layout_alignBottom="@+id/button_remove"
+        android:layout_alignLeft="@+id/button_cloud"
+        android:layout_alignStart="@+id/button_cloud" />
+
+</android.widget.RelativeLayout>
